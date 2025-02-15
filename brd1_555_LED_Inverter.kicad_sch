@@ -6055,75 +6055,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Remal_KiCadLib:Fuse_0805_2012m")
-		(at 51.054 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7ae1060c-f703-4ddb-bd60-b176decd27fc")
-		(property "Reference" "F1"
-			(at 51.054 39.624 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "16V_3A"
-			(at 51.054 36.068 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "Remal_KiCadLib:Fuse_0805_2012m"
-			(at 32.893 42.545 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.546 42.164 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "PTC Resettable Fuse - 0805 / 2012m"
-			(at 50.546 44.704 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5ce20661-06dd-4214-a597-e3e0177c9512")
-		)
-		(pin "1"
-			(uuid "bc97bed1-16ff-4ac8-8efc-5789f9a1e5b4")
-		)
-		(instances
-			(project ""
-				(path "/bf042a33-1684-4ee5-aab2-ce4b698ddb84"
-					(reference "F1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 59.69 66.802 90)
 		(unit 1)
@@ -6409,12 +6340,11 @@
 			)
 		)
 		(property "Value" "50"
-			(at 108.712 131.318 0)
+			(at 108.204 134.366 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Remal_KiCadLib:R_0805_2012m"
@@ -6621,12 +6551,11 @@
 			)
 		)
 		(property "Value" "50"
-			(at 108.5644 137.922 0)
+			(at 108.5644 142.24 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Remal_KiCadLib:R_0805_2012m"
@@ -7348,6 +7277,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Remal_KiCadLib:Fuse_0805_2012m")
+		(at 51.054 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d8153274-b163-4384-ac0a-9e95031ca3ae")
+		(property "Reference" "F1"
+			(at 49.53 40.132 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "Fuse_Trip500mA_SMD0805B020TF"
+			(at 60.706 35.56 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Remal_KiCadLib:Fuse_0805_2012m"
+			(at 32.893 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.546 42.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "PTC Resettable Fuse - 0805 / 2012m"
+			(at 50.546 44.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff43b0dc-435b-4ee4-bd43-89b5acb6a0b0")
+		)
+		(pin "2"
+			(uuid "8e0ad530-3cd0-4857-9434-13beee51a262")
+		)
+		(instances
+			(project ""
+				(path "/bf042a33-1684-4ee5-aab2-ce4b698ddb84"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Remal_KiCadLib:C_0805_2012m")
 		(at 62.992 41.148 0)
 		(unit 1)
@@ -7502,12 +7500,11 @@
 			)
 		)
 		(property "Value" "50"
-			(at 108.5644 145.542 0)
+			(at 108.5644 149.606 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Remal_KiCadLib:R_0805_2012m"
@@ -7992,7 +7989,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "100R"
 			(at 106.934 46.228 0)
 			(effects
 				(font

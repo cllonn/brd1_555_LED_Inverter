@@ -7,6 +7,13 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "555 Timer")
+		(date "2025-02-18")
+		(rev "v1.0")
+		(company "Remal")
+		(comment 1 "Sara AlMarzooqi")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(31 "B.Cu" signal)

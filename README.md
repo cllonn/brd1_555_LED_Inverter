@@ -13,10 +13,10 @@ Used 555 timer, Hex inverter and multiple LEDs to demostrate best design princip
                 - Drives three additional LEDs via 50Ω resistors, using the 555 timer signal.
 
 ## Circuit Schematic
-![Circuit Schematc](./images/schematic.png)
+![Circuit Schematc](./Images/Schematic.png)
 
 ## PCB Layout
-![PCB Layout](./images/layout.png)
+![PCB Layout](./Images/Layout.png)
 
 ## Usage
 To use the board:
